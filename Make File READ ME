@@ -1,0 +1,50 @@
+Euler Problems README
+Contents
+	Folder contains solutions to the Euler Problems found at https://projecteuler.net/archives.
+	Instructions for each problem found in the .cc file
+	All solutions written by Lissa Rickman
+Currently solutions completed for problems 1-17. Problem 18 is still a work in progress.
+
+Problem number  |  Description
+    1     Multiples of 3 and 5
+    2     Even Fibonacci numbers
+    3     Largest prime factor
+    4     Largest palindrome product
+    5     Smallest multiple
+    6     Sum square difference
+    7     10001st prime
+    8     Largest product in a series
+    9     Special Pythagorean triplet
+    10    Summation of primes
+    11    Largest product in a grid
+    12    Highly divisible triangular number
+    13    Large sum
+    14    Longest Collatz sequence
+    15    Lattice paths
+    16    Power digit sum
+    17    Number letter counts
+    18    Maximum path sum I
+    19    Counting Sundays
+    20    Factorial digit sum
+
+
+Compiling instructions
+Each Euler solution can be complied and run individually or as a set. 
+Each solution compiles to its own executable named <problem number>.out
+
+To compile an individual solution: 
+	Make <solution number>
+		ex: Make 1
+To compile a set containing the first three solutions:
+	Make 1 2 3
+To compile the entire collection:
+	Make
+
+The MakeFile does have a clean function that removes .o, temp and executable files (.out).
+
+To run file:
+	Each c file named <number>Euler.cc creates a .o (object) file and an executable files named <number>.out.
+	To run the file, click the icon or in the command line:
+		./<number>.out
+		ex: ./01.out
+If a solution requires user input, it will request it upon starting. 
