@@ -35,16 +35,22 @@ Each solution compiles to its own executable named <problem number>.out
 To compile an individual solution: 
 	Make <solution number>
 		ex: Make 1
+			gives: 1.out
+			to run: ./1.out
 To compile a set containing the first three solutions:
 	Make 1 2 3
+		gives 1.out, 2.out, 3.out
+		to run solution 1: ./1.out
+		to run solution 2: ./2.out...
 To compile the entire collection:
 	Make
-
+		to run any solution: ./<solution number>.out
+		
 The MakeFile does have a clean function that removes .o, temp and executable files (.out).
 
 To run file:
 	Each c file named <number>Euler.cc creates a .o (object) file and an executable files named <number>.out.
 	To run the file, click the icon or in the command line:
 		./<number>.out
-		ex: ./01.out
+		ex: ./1.out
 If a solution requires user input, it will request it upon starting. 
