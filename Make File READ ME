@@ -29,8 +29,8 @@ Problem number  |  Description
 
 
 Compiling instructions
-Each Euler solution can be complied and run individually or as a set. 
-Each solution compiles to its own executable named <problem number>.out
+    Each Euler solution can be complied and run individually or as a set. 
+    Each solution compiles to its own executable named <problem number>.out
 
 To compile an individual solution: 
 	Make <solution number>
@@ -53,4 +53,5 @@ To run file:
 	To run the file, click the icon or in the command line:
 		./<number>.out
 		ex: ./1.out
+		
 If a solution requires user input, it will request it upon starting. 
